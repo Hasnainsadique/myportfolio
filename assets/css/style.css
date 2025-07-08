@@ -1,0 +1,288 @@
+a,
+span {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #1e2a38;
+}
+
+.bg-nav {
+    background-color: #1e2a38;
+}
+
+.nav-item a {
+    color: white;
+}
+
+.logo a {
+    color: #00ffcd;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.navbar ul {
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+}
+
+.nav-back {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 15px;
+    transition: all 0.5s ease;
+}
+
+.nav-back:hover {
+    background-color: #00ffcd;
+}
+
+.main-heading h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.main-heading h1 span {
+    color: #00ffcd;
+
+}
+
+.main-heading h3 {
+    color: white;
+    font-size: 27px;
+}
+
+.main-heading p {
+    color: white;
+}
+
+.py-6 {
+    padding: 100px 0;
+    line-height: 30px;
+}
+
+.image-box {
+    width: 280px;
+    height: 320px;
+    border: 1px solid #00ffcd;
+    border-radius: 15px;
+    background-color: #1e2a38;
+    box-shadow: 0px 0px 10px 0px #00ffccce;
+}
+
+.image-box img {
+    width: 280px;
+    height: 380px;
+    object-fit: cover;
+    margin-top: -40px;
+}
+
+.btn {
+    background-color: #02cea5;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background-color: #00ffcd;
+}
+
+.action-buttons a {
+    color: white;
+}
+
+.white-color {
+    color: white;
+}
+
+.green-color {
+    color: #00ffcd;
+}
+
+.dark-color {
+    color: #1e2a38;
+}
+
+.about-heading p {
+    font-size: 20px;
+}
+
+.box-boarder {
+    border: 1px solid #00ffcd;
+    box-shadow: 0px 0px 5px 0px #00ffcd;
+}
+
+.image2-box {
+    width: 350px;
+    height: 400px;
+    border: 1px solid #00ffcd;
+    box-shadow: 0px 0px 10px 0px #00ffccce;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.image2-box img {
+    object-fit: cover;
+    height: 450px;
+    position: absolute;
+    right: 5px;
+    bottom: 2px;
+}
+
+.icon-size{
+    font-size: 50px;
+}
+
+.mb-6{
+    margin-bottom: 100px;
+}
+
+.mt-6{
+    margin-top: 70px;
+}
+
+.about-section {
+    background-color: #1a2430;
+}
+
+.ser-box{
+    transition: all 0.5s ease;
+}
+.ser-box:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.image-parent{
+    cursor: pointer;
+}
+.port-info{
+    background-color: #00ffccb3;
+    bottom: 5px;
+    left: 16px;
+    width: 90%; 
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.image-parent:hover .port-info{
+    opacity: 1;
+    transform: translatey(-10px);
+}
+
+.port-info h5{
+ font-weight: bold;
+}
+.port-info p{
+ font-size: 19px;
+}
+
+#soial-links{
+    border-top: 1px solid #00ffcd;
+    margin-bottom: 20px;
+    
+}
+
+.twitter{
+  width: 35px;
+  height: 35px;
+  border: 2px solid #00ffcd;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.twitter a{
+  color: #00ffcd;
+  font-size: 22px;
+}
+.twitter a:hover{
+ color: white;
+ transition: all 0.3s ease;
+
+}
+.facebook{
+  width: 35px;
+  height: 35px;
+  border: 2px solid #00ffcd;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.facebook a{
+  color: #00ffcd;
+  font-size: 22px;
+}
+
+.facebook a:hover{
+ color: white;
+ transition: all 0.3s ease;
+
+}
+.instagram{
+  width: 35px;
+  height: 35px;
+  border: 2px solid #00ffcd;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.instagram a{
+  color: #00ffcd;
+  font-size: 22px;
+}
+
+.instagram a:hover{
+ color: white;
+ transition: all 0.3s ease;
+
+}
+.Linkedin{
+  width: 35px;
+  height: 35px;
+  border: 2px solid #00ffcd;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Linkedin a{
+  color: #00ffcd;
+  font-size: 22px;
+}
+
+.Linkedin a:hover{
+ color: white;
+ transition: all 0.3s ease;
+
+}
+.card-link{ 
+    top: 3%; 
+    right: 46%;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.image-parent:hover .card-link{
+    opacity: 1;
+}
